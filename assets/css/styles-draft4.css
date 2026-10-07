@@ -259,8 +259,8 @@ main{overflow:hidden}
 .process-grid article:nth-child(even) span{background:var(--green-2)}
 
 /* contact */
-.contact{padding-top:28px;background:#fff}.contact-card{border-radius:50px;background:linear-gradient(120deg,#07355d 0%,#0d5961 58%,#5a9d2b 120%);box-shadow:0 28px 80px rgba(8,47,89,.20);overflow:hidden}
-.contact-card::before{content:"";position:absolute;right:-70px;top:-120px;width:330px;height:330px;border-radius:50%;border:70px solid rgba(255,255,255,.08)}
+.contact{padding-top:28px;background:#fff}.contact-card{border-radius:50px;background:linear-gradient(120deg,#07355d 0%,#0d5961 58%,#5a9d2b 120%);box-shadow:0 28px 80px rgba(8,47,89,.20);overflow:hidden;padding:54px 58px;min-height:300px}
+.contact-card::before{content:"";position:absolute;right:-70px;top:-120px;width:330px;height:330px;border-radius:50%;border:70px solid rgba(255,255,255,.08);z-index:0}.contact-card> *{position:relative;z-index:1}
 .contact-card .btn-light{min-width:260px}
 
 /* dialogs */
@@ -333,7 +333,8 @@ main{overflow:hidden}
 .spark-icon{position:relative;width:16px;height:16px;display:block}.spark-icon::before,.spark-icon::after{content:"";position:absolute;inset:50% auto auto 50%;background:currentColor;transform:translate(-50%,-50%);border-radius:999px}.spark-icon::before{width:16px;height:2px}.spark-icon::after{width:2px;height:16px}
 .header-cta .ui-arrow{width:36px;height:36px}.header-cta .ui-arrow::before,.header-cta .ui-arrow::after{color:#fff}
 .solution-overlay button .ui-arrow{width:100%;height:100%;color:var(--navy)}
-.problem-chips .ui-arrow,.filter-btn .ui-arrow,.product-cta .ui-arrow,.product-arrow.ui-arrow{width:100%;height:100%}
+.problem-chips .ui-arrow,.filter-btn .ui-arrow{width:100%;height:100%}
+.product-arrow.ui-arrow{width:40px!important;height:40px!important}
 .product-cta .ui-arrow{width:27px;height:27px}
 .dock-icon.ui-arrow{width:28px;height:28px}
 .hero-last{margin-left:.18em}
