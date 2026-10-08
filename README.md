@@ -1,4 +1,4 @@
-# THAI AGROZYME Front End — Draft 4
+# THAI AGROZYME Front End — Draft 5
 
 Standalone static front end prepared for a **new GitHub repository / GitHub Pages** deployment.
 
@@ -11,7 +11,7 @@ Standalone static front end prepared for a **new GitHub repository / GitHub Page
 - `assets/fonts/` with the DB Adman X WOFF2 files
 - `assets/images/` containing the Agrozyme Thailand logo, desktop/mobile hero images, six solution images, sustainability image, and all 18 product package images
 
-## Draft 4 design changes
+## Draft 5 design changes
 - softer organic layout and section transitions
 - editorial hero with clearer desktop hierarchy
 - redesigned mobile hero and CTA buttons
@@ -33,7 +33,7 @@ Standalone static front end prepared for a **new GitHub repository / GitHub Page
 No build step is required.
 
 
-## Draft 4 mobile repair
+## Draft 5 mobile repair
 - Compact single-row mobile header
 - Safe Thai headline sizing and controlled line breaks
 - No emoji arrows; all directional icons are CSS-drawn
@@ -42,3 +42,6 @@ No build step is required.
 - Shorter solution cards and sustainability section
 - Two-column problem finder
 - Removed fixed bottom dock to prevent content obstruction
+
+
+Draft 5 mobile revisions: unified full-screen hero, viewport-safe mobile typography/layout, compact six-category solution bento grid, and two-column mobile product catalog.
